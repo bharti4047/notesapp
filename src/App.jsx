@@ -36,6 +36,7 @@ function App({ signOut, user }) {
       console.error('Error fetching notes:', error)
     }
   }
+  
 
   async function createNote(event) {
     event.preventDefault()
